@@ -4,7 +4,7 @@
     width: 100vw;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 100px 400px 100px 100px 150px;
-    grid-area: 
+    grid-template-areas: 
     "header header header header"
     "main main main aside"
     "footer footer footer footer";
@@ -101,7 +101,7 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 15vh 15vh 40vh 10vh 10vh;
         grid-template-areas: 
-            "header" 
+            "header"
             "aside"
             "main";
     }
